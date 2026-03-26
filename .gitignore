@@ -1,0 +1,27 @@
+# Gradle - Build output and caches
+build/
+.gradle/
+
+# AppImage and Packaging Artifacts
+AppDir/
+*.AppImage
+*.zip
+*.exe
+
+# Eclipse / Java Language Server (jdtls)
+.classpath
+.project
+.settings/
+bin/
+
+# IDE and Editor files
+# (Useful if you or anyone else opens it in IntelliJ, Eclipse, or Neovim)
+.idea/
+*.iml
+*.swp
+*~
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
